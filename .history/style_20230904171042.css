@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Karla:wght@400;700&display=swap");
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  color: var(--Grayish-Blue);
+}
+
+.btn-cyan {
+  background-color: var(--Strong-Cyan);
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-color: var(--Light-Blue);
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.background {
+  background-image: url(./images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-text {
+  color: var(--Dark-Grayish-Blue);
+  background-color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 900px) {
+  .background {
+    background-image: url(./images/bg-header-desktop.png);
+  }
+  .footer-logo {
+    width: 10%;
+  }
+  .footer-logo img {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style_20230904171042.css.map */
